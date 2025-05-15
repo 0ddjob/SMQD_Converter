@@ -37,7 +37,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 127 71.567115)
+		(grid_origin 81.33 57.397115)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -86,7 +86,7 @@
 	(footprint "Crystal:Crystal_SMD_0603-4Pin_6.0x3.5mm_HandSoldering"
 		(layer "F.Cu")
 		(uuid "0828fc6a-d44d-43bf-87ed-28e3ec29a582")
-		(at 85.63 60.297115)
+		(at 85.787145 60.308348)
 		(descr "SMD Crystal SERIES SMD0603/4 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf, hand-soldering, 6.0x3.5mm^2 package")
 		(tags "SMD SMT crystal hand-soldering")
 		(property "Reference" "Y1"
@@ -442,7 +442,7 @@
 	(footprint "Crystal:Crystal_HC49-U_Vertical"
 		(layer "F.Cu")
 		(uuid "66e568c5-250b-4c74-be89-e56326bf10f9")
-		(at 83.28 64.847115)
+		(at 83.437145 64.858348)
 		(descr "Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf")
 		(tags "THT crystalHC-49/U")
 		(property "Reference" "J1"
@@ -539,7 +539,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "c5c9cfac-b87d-4319-bcda-ffe3a7428a6f")
-		(at 85.72 64.847115)
+		(at 85.877145 64.858348)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "J2"
@@ -642,50 +642,92 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_line
-		(start 87.85559 67.279993)
-		(end 83.847115 67.28)
+	(gr_arc
+		(start 89.33 56.397115)
+		(mid 90.744214 56.982901)
+		(end 91.33 58.397115)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "26ce57ac-f25e-4705-a297-e7418fcd3671")
+		(uuid "2e0e73ea-21ee-41e2-8c74-5005dc3887bc")
 	)
 	(gr_arc
-		(start 83.847115 67.28)
-		(mid 78.41423 61.847115)
-		(end 83.847115 56.41423)
+		(start 80.33 58.397115)
+		(mid 80.915781 56.982892)
+		(end 82.33 56.397115)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "38b44ecf-2f04-4ced-bede-e7a4ea4ab63d")
-	)
-	(gr_arc
-		(start 87.847115 56.41423)
-		(mid 93.28 61.847115)
-		(end 87.847115 67.28)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9473b967-8537-4ab4-a417-3ef748d5855d")
+		(uuid "55cd4183-a807-4e8d-89db-1ad52f8a8c3d")
 	)
 	(gr_line
-		(start 83.847115 56.41423)
-		(end 87.847115 56.41423)
+		(start 89.33 67.397115)
+		(end 82.33 67.397115)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "aad9ab17-24e5-456f-a68e-35b06bf8645f")
+		(uuid "6889b867-3ebb-49c9-b713-fade73806346")
+	)
+	(gr_line
+		(start 91.33 58.397115)
+		(end 91.33 65.397115)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6a7ab831-12f3-4601-97f5-28084848b820")
+	)
+	(gr_arc
+		(start 82.33 67.397115)
+		(mid 80.915786 66.811329)
+		(end 80.33 65.397115)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "92717628-c026-48d6-8dab-4d0191781426")
+	)
+	(gr_line
+		(start 80.33 65.397115)
+		(end 80.33 58.397115)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ae73c15e-1359-4e57-830e-9510b7664a4d")
+	)
+	(gr_arc
+		(start 91.33 65.397115)
+		(mid 90.744208 66.811319)
+		(end 89.33 67.397115)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "babffd10-1a7a-4700-9f9c-2b489ab6db73")
+	)
+	(gr_line
+		(start 82.33 56.397115)
+		(end 89.33 56.397115)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f617f5ec-7746-4601-8fbb-fd627707f042")
 	)
 	(gr_text "GND"
-		(at 84.787974 67.009067 0)
+		(at 84.945119 67.0203 0)
 		(layer "F.SilkS")
 		(uuid "72bc9b38-7f9a-415d-a210-eeeb3432e4b9")
 		(effects
@@ -697,9 +739,22 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SMQD Crystal\nConverter\nBrett Hallen\nMay 2025"
+		(at 88.33 62.397115 0)
+		(layer "B.SilkS")
+		(uuid "b9a0eac1-18ba-406a-b5c5-88eb6031661a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
-		(start 82.98 61.847115)
-		(end 82.98 64.547115)
+		(start 83.137145 61.858348)
+		(end 83.137145 64.558348)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -714,32 +769,32 @@
 		(uuid "197e4e85-96fd-4f73-a6ad-d57ed213aa62")
 	)
 	(segment
-		(start 88.28 58.747115)
-		(end 90.28 60.747115)
+		(start 88.437145 58.758348)
+		(end 90.437145 60.758348)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "8792466b-1fff-4b74-a9f0-99cb7c9ffecf")
 	)
 	(segment
-		(start 90.28 62.727115)
-		(end 88.16 64.847115)
+		(start 90.437145 62.738348)
+		(end 88.317145 64.858348)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "a4781247-8360-454d-a556-d0c5dd3c4785")
 	)
 	(segment
-		(start 90.28 60.747115)
-		(end 90.28 62.727115)
+		(start 90.437145 60.758348)
+		(end 90.437145 62.738348)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "cf52f931-7571-453f-b143-5dfdb351ce7e")
 	)
 	(segment
-		(start 88.28 62.287115)
-		(end 85.72 64.847115)
+		(start 88.437145 62.298348)
+		(end 85.877145 64.858348)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 3)
@@ -752,12 +807,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "faadf6e7-8d95-4a25-82c0-f17dc3ac7673")
-	)
-	(group ""
-		(uuid "75ef2dc8-64f7-4473-b063-e5ca76139b17")
-		(members "26ce57ac-f25e-4705-a297-e7418fcd3671" "38b44ecf-2f04-4ced-bede-e7a4ea4ab63d"
-			"9473b967-8537-4ab4-a417-3ef748d5855d" "aad9ab17-24e5-456f-a68e-35b06bf8645f"
-		)
 	)
 	(embedded_fonts no)
 )
